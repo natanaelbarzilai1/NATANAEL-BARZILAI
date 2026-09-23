@@ -23,7 +23,4 @@ Website portofolio pribadi responsif yang dibangun menggunakan HTML5, CSS3, Java
 4. **Form Interaktif:** Notifikasi sederhana saat pengguna mengirimkan pesan pada section kontak.
 5. **Section Lengkap:** Terdiri dari Home, About, Skills, Projects, dan Contact.
 
-## 🚀 Link Demo & Repository
-- **GitHub Repository:** [Tempel Link Repository GitHub Kamu Di Sini]
-- **Live Demo:** [Tempel Link GitHub Pages Kamu Di Sini]
--
+
