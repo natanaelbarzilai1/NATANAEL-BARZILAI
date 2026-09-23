@@ -1,0 +1,96 @@
+/* Typography & General */
+body {
+  font-family: 'Poppins', sans-serif;
+  color: #333;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+html {
+  scroll-behavior: smooth;
+  scroll-padding-top: 70px;
+}
+
+/* Header & Hero */
+.hero-section {
+  min-height: 100vh;
+  background: linear-gradient(rgba(15, 23, 42, 0.85), rgba(15, 23, 42, 0.85)), url('https://images.unsplash.com/photo-1517694712202-14dd9538aa97?auto=format&fit=crop&w=1350&q=80') no-repeat center center/cover;
+}
+
+.profile-img {
+  width: 160px;
+  height: 160px;
+  object-fit: cover;
+}
+
+.about-img {
+  max-height: 380px;
+  width: 100%;
+  object-fit: cover;
+}
+
+/* Titles & Lines */
+.section-title {
+  position: relative;
+  display: inline-block;
+}
+
+.title-line {
+  width: 60px;
+  height: 4px;
+  background-color: #0d6efd;
+  border-radius: 2px;
+  margin-top: 8px;
+}
+
+/* Cards & Interactions */
+.skill-card {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  border-radius: 16px;
+}
+
+.skill-card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1) !important;
+}
+
+.project-card {
+  transition: transform 0.3s ease;
+}
+
+.project-card:hover {
+  transform: translateY(-6px);
+}
+
+.project-img {
+  height: 240px;
+  object-fit: cover;
+}
+
+/* Custom Dark Mode Theme */
+body.dark-mode {
+  background-color: #0f172a !important;
+  color: #f1f5f9 !important;
+}
+
+body.dark-mode .bg-light {
+  background-color: #1e293b !important;
+}
+
+body.dark-mode .card,
+body.dark-mode .form-control {
+  background-color: #1e293b !important;
+  color: #f1f5f9 !important;
+  border-color: #334155 !important;
+}
+
+body.dark-mode .form-control::placeholder {
+  color: #94a3b8;
+}
+
+body.dark-mode .text-secondary {
+  color: #cbd5e1 !important;
+}
+
+body.dark-mode .bi-tiktok {
+  color: #ffffff !important;
+}
